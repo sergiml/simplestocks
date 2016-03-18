@@ -49,9 +49,7 @@ public class Ops {
 	public   double calculatePERatio(Stock  st , Trade tr) {
 
 		double peRatio ;
-		//Stock st = stocks.get(s);
-		//Trade tr = getLastTradeOfSymbol(s);
-		
+	 
 		if (st.getLastDividend() != 0 ) 
 			if (tr != null) {	
 				peRatio =  tr.getPrice() / st.getLastDividend() ;		 
@@ -69,9 +67,7 @@ public class Ops {
 
 
 		Double dividendYield ;
-		//Stock st = stocks.get(s);
-		//Trade tr = getLastTradeOfSymbol(s);
-
+	 
 		if (tr != null) {
 
 			// preferred

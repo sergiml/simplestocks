@@ -1,28 +1,7 @@
 package Model;
 
 public class Stock {
-
-	/*
-	 * 
-	 * 	TEA Common 0 100
-
-		POP Common 8 100
-		
-		ALE Common 23 60
-		
-		GIN Preferred 8 2% 100
-		
-		JOE Common 13 250 
-	 * 
-	 * 
-	 * 
-	 * 
-	 * 
-	 * 
-	 * 
-	 * 
-	 */
-	
+ 
 	public Stock(StockSymbol symbol, StockType type, Integer lastDividend,
 			Integer fixedDividend, Integer parValue) {
 		super();
